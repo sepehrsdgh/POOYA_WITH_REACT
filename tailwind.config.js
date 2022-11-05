@@ -10,6 +10,9 @@ module.exports = {
     }
   ,
     extend: {
+      fontFamily:{
+        "iran":["iran"]
+      },
       colors: {
         blue: {
           950: "#167abc",
