@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color:#f1f1f1;
+@layer base {
+  @font-face {
+    font-family: "iran";
+    src: url(./fonts/iran.ttf);
+  }
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.owl-dots {
+ margin-top:60px !important
+}
+
+.owl-dot span{
+  margin-left:3px !important;
+  margin-right:3px !important
 }
